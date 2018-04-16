@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(24, 74, 80);
+}
+.presentacion{  
+    background-color: rgb(46, 177, 133);
+    border-radius: 20px;
+}
+table{
+    border-radius: 20px;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+}
+td{
+    border-radius: 30px; 
+    background-color: rgb(211, 77, 14); 
+    border: none;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+li{
+    color: white;
+}
+p{
+    color: black;
+}
+h2{
+    font-family: Courier New, Courier, monospace;
+    color: white;
+}
+img{
+    border-radius: 25px;
+}
+/*
