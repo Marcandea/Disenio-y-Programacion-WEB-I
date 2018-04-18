@@ -1,36 +1,38 @@
+*{
+    margin: 0;
+    border: 0;
+}
 body{
-    background-color: rgb(24, 74, 80);
+    background-color: rgb(255, 255, 255);
 }
-.presentacion{  
-    background-color: rgb(46, 177, 133);
-    border-radius: 20px;
+header{
+    background-color: rgb(25, 25, 90);
+    box-shadow: black;
 }
-table{
-    border-radius: 20px;
-    border: none;
-    border-collapse: separate;
-    border-spacing: 20px 20px;
+header div table tr td h1{
+    color: rgb(8, 36, 88);
+    
 }
-td{
-    border-radius: 30px; 
-    background-color: rgb(211, 77, 14); 
-    border: none;
+header div table tr td h3{
+    color: rgb(92, 95, 92);
 }
-a{
-    color:white;
+header div{
+    background-color: rgb(215, 230, 240);
+}
+header div table tr td p{
+    color: rgb(215, 230, 240);
+}
+
+header nav ul{
+    list-style:none;
+    overflow: hidden;
+}
+header nav ul li{
+    float:left;
+}
+header nav ul li a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 50px;
+    display:block;
 }
-li{
-    color: white;
-}
-p{
-    color: black;
-}
-h2{
-    font-family: Courier New, Courier, monospace;
-    color: white;
-}
-img{
-    border-radius: 25px;
-}
-/*
