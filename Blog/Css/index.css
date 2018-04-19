@@ -33,13 +33,18 @@ header nav ul{
 }
 header nav ul li{
     float:left;
+    
+    -webkit-box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.34);
+    -moz-box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.34);
+    box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.34);
 }
 header nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 20px 50px;
+    padding: 20px 40px;
     display:block;
 }
+
 div img{
     margin-top: -80px;
     float: left;
