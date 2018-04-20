@@ -8,13 +8,12 @@ body{
 header{
     background-color: rgb(25, 25, 90);
 }
-header nav{
-    -webkit-box-shadow: 0px 10px 7px -2px rgba(20,20,20,1);
-    -moz-box-shadow: 0px 10px 7px -2px rgba(20,20,20,1);
+header #navbar{
     box-shadow: 0px 10px 7px -2px rgba(20,20,20,1);
 }
-header div table tr td h1{
+div table tr td h1{
     color: rgb(8, 36, 88);
+    text-shadow: 0 5px 3px rgb(168, 167, 167);
 }
 header div table tr td h3{
     color: rgb(92, 95, 92);
@@ -27,38 +26,38 @@ header div table tr td p{
     color: rgb(215, 230, 240);
 }
 
-header nav ul{
+header #navbar ul{
     list-style:none;
     overflow: hidden;
 }
-header nav ul li{
+header #navbar ul li{
     float:left;
-    -webkit-box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.34);
-    -moz-box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.34);
     box-shadow: inset 200px 200px 300px 200px rgba(0,0,0,0.34);
 }
-header nav ul li a{
+header #navbar ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     padding: 20px 40px;
     display:block;
 }
-
+header #navbar ul li a:hover{
+    background-color: black;
+}
 div img{
     margin-top: -80px;
     float: left;
 }
-.classTable{
+#div-table{
     margin-top: 100px;
 }
-.classTable table{
+#div-table table{
     border: 10px;
     border-color: black;
 }
-.classTable table tr .text{
+#div-table table tr #text{
     background-color: rgb(241, 236, 236);
 }
-.classTable table tr .text p a{
+#div-table table tr #text p a{
     color:blue;
     text-decoration: none;
     font-family: sans-serif;
@@ -66,33 +65,33 @@ div img{
 p{
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
-.classTable table tr td h3{
+#div-table table tr td h3{
     color: rgb(45, 45, 94);
     font-family: cursive;
     font-size: 180%;
 }
-.classTable table tr td h2{
+#div-table table tr td h2{
     color: rgb(62, 62, 63);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 200%;
 }
-.classTable table tr .box{
+#div-table table tr #box{
     background-color: grey;
     color: white;
 }
-.classTable table tr .box p{
+#div-table table tr #box p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 120%;
     margin-top: 20px; 
 }
-.classTable table tr .text p {
+#div-table table tr #text p {
     text-align: justify;
     color:rgb(88, 88, 88);
 }
-.classTable table tr .text h3 {
+#div-table table tr #text h3 {
     font-family: monospace;
 }
-.boton a{
+#boton a{
     background-color: rgb(0, 0, 0);
     text-decoration: none;
     color:white;
